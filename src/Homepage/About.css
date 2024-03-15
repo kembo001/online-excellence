@@ -1,0 +1,28 @@
+.about-me{
+    display: flex;
+}
+
+.about-me img{
+    max-height: 770px;
+    width: auto;
+}
+
+.row > * {
+    flex-shrink: inherit !important;
+}
+.row {
+
+    flex-wrap: nowrap !important;
+}
+
+.about-me-img{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.about-me p{
+    width: 60%;
+    font-size: 1.4rem;
+}
+

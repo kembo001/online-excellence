@@ -1,0 +1,63 @@
+.skilldot {
+    width: 100px; /* Adjust the width to your desired size */
+    height: 100px; /* Make sure the height matches the width for a perfect circle */
+    background-color: #3498db; /* Change the background color to your desired color */
+    border-radius: 50%; /* This creates the circular shape */
+  }
+  .skills{
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+      justify-content: space-around;
+      margin-bottom: 4em;
+  }
+
+  .box{
+      /* position: absolute; */
+      border: 1px solid var(--color-secondary);
+      /* border-radius: 4rem; */
+      padding: 1.125rem;
+      display: flex;
+      align-items: center;
+      line-height: 1.3;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 14px;
+      border-top-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+  }
+
+  .skill-section{
+      font-size: 1.4rem;
+  }
+/* 
+  .html{
+      left: 35rem;
+  }
+
+  .css{
+      left: 50rem;
+      top: 120rem;
+  }
+
+  .js{
+    left: 65rem;
+    top: 120rem;
+  }
+
+  .react{
+    left: 80rem;
+    top: 130rem;
+  }
+
+  .node{
+    left: 65rem;
+    top: 145rem;
+  }
+
+  .sql{
+    left: 50rem;
+    top: 145rem;
+  } */
+
